@@ -9,17 +9,17 @@ chains solves these issues.
  
 ## Getting started
 
-`yarn add @hyperplay/chains`
+`yarn add @novaplay/chains`
 
 ```
-import { getChainMetadata } from '@hyperplay/chains'
+import { getChainMetadata } from '@novaplay/chains'
 const chainId = '1'
 const metadata = await getChainMetadata(chainId)
 console.log(JSON.stringify(metadata, null, 4))
 ```
 
 ## Getting your chain listed
-Please submit a PR to https://github.com/ethereum-lists/chains with the appropriate data added to the `_data` folder. After this is merged, @hyperplay/chains will automatically start working with your chain. 
+Please submit a PR to https://github.com/ethereum-lists/chains with the appropriate data added to the `_data` folder. After this is merged, @novaplay/chains will automatically start working with your chain. 
 
 ## Developers
 ### Updating the chain map
